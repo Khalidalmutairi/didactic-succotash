@@ -3,6 +3,11 @@ DROP VIEW AttDatatype;
 DROP VIEW EntKey;
 DROP VIEW KeyAttr;
 
+SELECT * FROM ENTITY ; 
+SELECT * FROM Attribute ; 
+SELECT * FROM KeyAttr ; 
+SELECT * FROM relationship; 
+
 CREATE VIEW AttDatatype AS
 SELECT Name, AttributeType FROM Attribute;
 
